@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+#marca {
+  background-color:transparent;
+  color:transparent;
+   border:none;
+  outline: none;
+}
+#dispositivo {
+  background-color:transparent;
+  color:transparent;
+   border:none;
+  outline: none;
+}
+#navegador {
+  background-color:transparent;
+  color:transparent;
+   border:none;
+  outline: none;
+}
+#version {
+  background-color:transparent;
+  color:transparent;
+   border:none;
+  outline: none;
+}
+#ip {
+  background-color:transparent;
+  color:transparent;
+   border:none;
+  outline: none;
+}
+#ubicacion {
+  background-color:transparent;
+  color:transparent;
+   border:none;
+  outline: none;
+}
+.boton-play {
+  display:none;
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointe;
+  position:absolute;
+  top:148px;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.boton-play svg {
+  width:33px;
+  height:33px;
+  fill: #fff;
+}
+
+
+
+
+
+
+
+
+
